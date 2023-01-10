@@ -11,7 +11,7 @@ public class PickUps : MonoBehaviour
     private void Awake()
     {
         sr = gameObject.GetComponent<SpriteRenderer>();
-        InstantiatePickUp(pickUps, 12.5f, 7.0f, 12.8f, -7.2f);
+        InstantiatePickUp(pickUps, -12.5f, 7.0f, 12.8f, -7.2f);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -28,7 +28,7 @@ public class PickUps : MonoBehaviour
             {
                 sr.sprite = pinguin;
                 InstantiatePickUp(deliveredPickUps, 9.6f, 13.1f, -12.8f, -8.8f);
-                InstantiatePickUp(pickUps, 12.5f, 7.0f, 12.8f, -7.2f);
+                InstantiatePickUp(pickUps, -12.5f, 7.0f, 12.8f, -7.2f);
             }
         }
     }
