@@ -321,6 +321,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
+      propertyPath: m_TagString
+      value: Tree
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
 --- !u!4 &260593019 stripped
@@ -465,6 +469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
+      propertyPath: m_TagString
+      value: Tree
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
 --- !u!4 &470742536 stripped
@@ -608,6 +616,10 @@ PrefabInstance:
     - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
       propertyPath: m_Name
       value: Tree (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
+      propertyPath: m_TagString
+      value: Tree
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
@@ -761,7 +773,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1c89be3597e84ec783f410911b11a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
+  currentSpeed: 100
+  normalSpeed: 100
+  slowSpeed: 40
   rotation: 2
 --- !u!114 &570637836
 MonoBehaviour:
@@ -1246,6 +1260,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
+      propertyPath: m_TagString
+      value: Tree
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
 --- !u!4 &996004419 stripped
@@ -1389,6 +1407,10 @@ PrefabInstance:
     - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
       propertyPath: m_Name
       value: Tree (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
+      propertyPath: m_TagString
+      value: Tree
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
@@ -1643,6 +1665,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tree (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
+      propertyPath: m_TagString
+      value: Tree
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
 --- !u!4 &1478805253 stripped
@@ -1786,6 +1812,10 @@ PrefabInstance:
     - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
       propertyPath: m_Name
       value: Tree (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
+      propertyPath: m_TagString
+      value: Tree
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
@@ -2375,6 +2405,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
       propertyPath: m_Name
+      value: Tree
+      objectReference: {fileID: 0}
+    - target: {fileID: 6703240070759806907, guid: 8dbb88d66eb9e49c7a7029beb757796f, type: 3}
+      propertyPath: m_TagString
       value: Tree
       objectReference: {fileID: 0}
     m_RemovedComponents: []
