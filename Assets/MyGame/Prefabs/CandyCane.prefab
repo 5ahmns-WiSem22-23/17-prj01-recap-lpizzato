@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6673969768758464352}
   - component: {fileID: 6673969768758464355}
   - component: {fileID: 8533384569227149389}
+  - component: {fileID: 3036334871128426000}
   m_Layer: 0
   m_Name: CandyCane
   m_TagString: PickUp
@@ -131,3 +132,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3036334871128426000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6673969768758464354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a31cfffef13a846c19592dcf3ae6aa4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colliding: 0
+  pu: {fileID: 0}
